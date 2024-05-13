@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+/* small browser reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font: 22px / 28px Arial, Helvetica, sans-serif;  
+  color: rgb(79, 95, 89);
+  /* text-align: center; */
+}
+
+h1, h2, h3 {
+  font-family: "Anta", sans-serif;
+  line-height: 1.1em;
+}
+header, footer, main, #about, #banner, #contact {
+  padding:20px;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  position: relative;
+}
+header{
+  background: lightblue;
+}
+#banner{
+  padding: 0px;
+  max-height: 380px;
+}
+#banner img{
+  width: 100%;
+  display: block;
+
+}
+footer{
+  background: lightgreen;
+}
+main{ 
+  background: #eee;
+  min-height: 1000px;
+}
+#about{
+  background: plum;
+}
+header ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px 25px 10px 0px;
+}
+/* Language Nav */
+#lang {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  background: #add8e6;
+  padding: 10px;
+  border-radius: 7px;
+}
+#lang ul {
+  list-style: none;
+}
